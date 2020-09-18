@@ -32,18 +32,18 @@ JSONTreeUI
     Copy to folder src or sub-catagories or commpents of src folder.
   
     JSONTreeUIの中身を丸でフォルダsrcもしくはsrc子階層及び部品にコピーすること。
--　画面
+- 画面
     画面
     View
   
--　初始画面
+- 初始画面
 初期表示
 EntryTreeView
 
 
 ![image](https://github.com/NUStri/JSONTreeUI/blob/master/FullTree.jpg?raw=true)
 
--　搜索画面
+- 搜索画面
 検索画面
 SearchTreeView
 
