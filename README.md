@@ -9,7 +9,7 @@ JSONTreeUI
 
       Multiple root nodes is allowed.
   
-      マルチルートノードが許されること。
+      複数ルートノードが許されること。
 
   - 所有叶节点都在末尾
 
@@ -24,7 +24,7 @@ JSONTreeUI
       木の葉ノードと普通のノードが同じ階層にとなれません。
   
 - 用法
-  usage
+  Usage
   取り扱い
   
     拷贝JSONTreeUI所有文件至src文件夹或src子文件夹或部件。
