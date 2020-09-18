@@ -1,0 +1,111 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+	text-align: left;
+}
+
+li i {
+	color: #00a699;
+	margin-right:5px;
+
+}
+
+button i {
+	margin-right:5px;
+}
+
+button {
+	margin-left:10px;
+	height:20px;
+	width:50px;
+	padding:1px;
+	color:white;
+	background-color: #00a699;
+	border:2px solid #00a699;
+	font-size:11px;
+}
+
+li:hover {
+	background-color:#00a699;
+	color:white;
+}
+
+input[type=text] {
+	margin-left:30px;
+	margin-top: 30px;
+	height:20px;
+
+}
+
+input[type=checkbox] ~ ul {
+	display:none;
+	list-style-type:none;
+	animation: tooltipNotShow 0.3s linear 0s;
+}
+
+input[type=checkbox]:before {
+	font-family: 'FontAwesome';
+	content:'\f067';
+	background-color: white;
+	appearance:none;
+	color: #00a699;
+	box-shadow: 0 0 0 3px white;
+
+}
+
+input[type=checkbox]:checked:before {
+	box-shadow: 0 0 0 3px orange;
+	content:'\f068';
+}
+
+
+input[type=checkbox]:checked + ul {
+	display: block;
+	animation: tooltipShow 0.3s linear 0s;
+}
+
+@keyframes tooltipShow {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes tooltipNotShow {
+  from {
+    opacity: 1;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+}
