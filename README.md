@@ -41,7 +41,7 @@ JSONTreeUI
   EntryTreeView
 
 
-![image](https://github.com/NUStri/JSONTreeUI/blob/master/FullTree.jpg?raw=true)
+    ![image](https://github.com/NUStri/JSONTreeUI/blob/master/FullTree.jpg?raw=true)
 
 
    - 搜索画面
@@ -50,4 +50,4 @@ JSONTreeUI
 
 
 
-![image](https://github.com/NUStri/JSONTreeUI/blob/master/SearchTree.png?raw=true)
+    ![image](https://github.com/NUStri/JSONTreeUI/blob/master/SearchTree.png?raw=true)
