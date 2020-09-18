@@ -7,31 +7,31 @@ JSONTreeUI
 
 1. 允许多根节点
 
-  Multiple root nodes is allowed.
+    Multiple root nodes is allowed.
   
-  マルチルートノードが許されること。
+    マルチルートノードが許されること。
 
 2. 所有叶节点都在末尾
 
-  All the leaf nodes are at the edge of the tree.
+    All the leaf nodes are at the edge of the tree.
   
-  全ての木の葉ノードが木の辺縁にであること。
+    全ての木の葉ノードが木の辺縁にであること。
 
 3. 不存在叶子节点与中间节点在某一个中间节点上共存的情况
 
-  It not exists that one leaf node and a common node are the same catagory at the same time.
+    It not exists that one leaf node and a common node are the same catagory at the same time.
   
-  木の葉ノードと普通のノードが同じ階層にとなれません。
+    木の葉ノードと普通のノードが同じ階層にとなれません。
   
 ● 用法
   usage
   取り扱い
   
-  拷贝JSONTreeUI所有文件至src文件夹或src子文件夹或部件。
+    拷贝JSONTreeUI所有文件至src文件夹或src子文件夹或部件。
   
-  Copy to folder src or sub-catagories or commpents of src folder.
+    Copy to folder src or sub-catagories or commpents of src folder.
   
-  JSONTreeUIの中身を丸でフォルダsrcもしくはsrc子階層及び部品にコピーすること。
+    JSONTreeUIの中身を丸でフォルダsrcもしくはsrc子階層及び部品にコピーすること。
   
 初始画面
 初期表示
